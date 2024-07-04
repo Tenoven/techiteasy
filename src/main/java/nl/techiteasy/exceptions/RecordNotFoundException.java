@@ -1,7 +1,7 @@
 package nl.techiteasy.exceptions;
 
 
-public class RecordNotFoundException {
+public class RecordNotFoundException extends RuntimeException{
 
     public RecordNotFoundException() {
         super  ();
