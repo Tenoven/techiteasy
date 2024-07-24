@@ -2,10 +2,8 @@ package nl.techiteasy.Services;
 
 import jakarta.persistence.EntityNotFoundException;
 import nl.techiteasy.dtos.TelevisionDto;
-import nl.techiteasy.dtos.TelevisionInputDto;
 import nl.techiteasy.models.Television;
 import nl.techiteasy.repositories.TelevisionRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

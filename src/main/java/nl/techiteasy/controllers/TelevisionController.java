@@ -3,7 +3,6 @@ package nl.techiteasy.controllers;
 import nl.techiteasy.Services.TelevisionService;
 import nl.techiteasy.dtos.TelevisionDto;
 import nl.techiteasy.models.Television;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -17,7 +16,7 @@ public class TelevisionController {
 
     private final TelevisionService televisionService;
 
-    public TelevisionController(TelevisionService televisionService){
+    public TelevisionController(TelevisionService televisionService) {
         this.televisionService = televisionService;
     }
 
